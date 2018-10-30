@@ -1,7 +1,7 @@
 ---
 title: "My First Post"
 date: 2018-10-30T16:46:10+01:00
-draft: true
+draft: false
 ---
 Manditory Hello World!
 
