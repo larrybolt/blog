@@ -1,0 +1,4 @@
+baseURL = "https://larry.boltovskoi.com/"
+languageCode = "en-us"
+title = "Larry's Blog"
+theme = "hugo-paper"
