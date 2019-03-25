@@ -3,7 +3,7 @@ title: "My First Post"
 date: 2018-10-30T16:46:10+01:00
 draft: false
 ---
-Manditory Hello World!
+Mandatory Hello World!
 
 There, now that is done, I can move on to more interesting things.
 
