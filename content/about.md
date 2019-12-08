@@ -5,9 +5,9 @@ menu  = "main"
 url = "about/" 
 +++
 
-Hi! I'm Larry Boltovskoi, obsessed software engineer!  
+Hi! I'm Larry Boltovskoi, an obsessed software engineer!  
 
-I do a lot of web related stuff.  
+I do a lot of web related stuff. 
 
 Frontend, backend, deployment and scaling.  
 
