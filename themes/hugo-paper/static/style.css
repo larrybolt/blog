@@ -335,6 +335,10 @@ pre, code {
 }
 .post-content a {
   padding-bottom: 2px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, .1);
+}
+.post-content a:hover {
+  padding-bottom: 2px;
   border-bottom: 1.5px solid rgba(0, 0, 0, .8);
 }
 .post-content p,
