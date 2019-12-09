@@ -26,13 +26,15 @@
     {{ template "_internal/google_analytics_async.html" . }}
   {{ end }}
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41438740-1"></script>
-<script>
+<script>/* I'm so sorry for snooping :( I'm just too curious! */
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-41438740-1');
 </script>
-
+{{ range .AlternativeOutputFormats -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 </head>
 <body class="{{if eq .Kind `page` }}single{{else}}list{{ if .IsHome }} home{{ end }}{{end}}">
   <header class="header">
